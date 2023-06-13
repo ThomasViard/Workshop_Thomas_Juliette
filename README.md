@@ -1,12 +1,12 @@
 # Workshop_Thomas_Juliette
 
-Objectif: découvrir Angular et les appels aux bases de données.
+Objectif: Découvrir Flutter.
 
 **INSTALATION**: 
 
 pour installer: https://docs.flutter.dev/get-started/install
 
-**PROJET**: Créer une application Angular qui affiche des données à partir d'une base de données JSON simulée.
+**PROJET**: Créez une application Flutter avec authentification.
 
 **Etape 1: Initialisation**
 
@@ -25,4 +25,5 @@ pour installer: https://docs.flutter.dev/get-started/install
 6- Ecrivez "Flutter" et selectionez le Flutter: New Project
 
 7- Selectionnez: Application
+
 
