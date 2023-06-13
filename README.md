@@ -6,7 +6,7 @@ Objectif: Découvrir Flutter.
 
 pour installer: https://docs.flutter.dev/get-started/install
 
-**PROJET**: Créez une application Flutter avec authentification.
+_**PROJET**: Créez une application Flutter avec authentification._
 
 **Etape 1: Initialisation**
 
