@@ -2,11 +2,11 @@
 
 Objectif: Découvrir Flutter.
 
-**INSTALATION**: 
+**INSTALATION**:
 
 pour installer: https://docs.flutter.dev/get-started/install
 
-**PROJET**: Créez une application Flutter avec authentification.
+**PROJET**: Créez une application Flutter avec authentification à l'aide de firebase.
 
 **Etape 1: Initialisation**
 
@@ -14,16 +14,14 @@ pour installer: https://docs.flutter.dev/get-started/install
 
 1- Ouvrez votre terminal ou votre invite de commandes et créez un nouveau dossier pour votre projet.​
 
-2- Dans VSCode cliquez sur View puis sur Command Palette.
+2- Rendez-vous sur https://firebase.google.com/ où vous créerez un projet. Sous "Lancez-vous en ajoutant Firebase à votre application", cliquez sur le logo flutter et suivez les étapes. Vous pouvez rencontrer un problème dans la localisation du bin flutterfire, ce qui vous empècherai de l'utiliser.
 
-3- Ecrivez "install" et séléctionnez Extensions: Install Extensions.
+**Etape 2: L'appli**
 
-4- Ecrivez "flutter" dans la barre de recherche d'extensions, cherchez Flutter dans la list et cliquez sur INstall
+Tout d'abord il faut savoir que vous pouvez trouver n'importe quel widget sur internet. Si il ne sont pas natifs vous pouvez récuperer des packages sur https://pub.dev/. Il suffit d'effectuer flutter pub get package_name et vous aurez le package qui vous fais envie.
 
-5- dans VScode, cliquez sur View puis sur Command Palette.
+Dans le que je fournis, il y a une interface graphique simple, mais vous êtes libre de la changer
 
-6- Ecrivez "Flutter" et selectionez le Flutter: New Project
+Dans le fichier authenticate_screen.dart, il y'a les methodes d'authentifications qui ne sont pas encore créés, et nous allons le faire dans le fichier authentication.dart
 
-7- Selectionnez: Application
-
-
+Retourner sur firebase dans la partie authentication, vous pouvez choisir une methode de connexion (sign-in method), et nous commencons avec l'email et le mot de passe
